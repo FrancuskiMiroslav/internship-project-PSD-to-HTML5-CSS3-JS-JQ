@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Francuski Miroslav">
+  <meta name="description" content="Internship project PSD to HTML5-CSS3-JavaScript">
+  <meta name="keywords" content="HTML5,CSS3,XML,JavaScript,Responsive">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Green Earth</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="images/icon.png" type="image/png" sizes="16x16">
+</head>
+
+<body>
+  <header>
+
+    <div id="logo">
+      <a href="#">
+        <img src="images/nav/logo.png" alt="world travel">
+      </a>
+    </div>
+
+    <nav>
+
+      <div class="login">
+
+        <a href="#">LOGIN</a>
+
+        <a href="#">
+          <img src="images/mobile/(£).jpg" alt="£ , GBP">
+        </a>
+      </div>
+
+      <div class="main-nav">
+        <ul>
+          <li>
+            <a href="#">Info</a>
+          </li>
+          <li>
+            <a href="#">About us</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  </header>
+  <!-- end of header-->
+
+  <!-- Slider starts -->
+  <div id="slider-container">
+    <div class="slider">
+      <img src="images/bg slider/photo-1446160657592-4782fb76fb99.jpg" alt="bridge">
+      <img src="images/bg slider/StockSnap_ZXOBOKAJEQ.jpg" alt="tattoolady">
+      <img src="images/bg slider/Layer 0 copy.jpg" alt="jump" class="active">
+
+    </div>
+    <!-- BOOKNOW LOW RESOLUTION for tablet and mobile start -->
+    <div id="booknow-low">
+      <img src="images/mobile/Enjoy our hot summer deals  from £69.50.png" class="enjoy-low">
+
+      <div class="button-low" onclick="alert('Booked')">
+        <img src="images/mobile/Book now_.png">
+      </div>
+
+      <div id="slider-arrows-low">
+        <div class="leftarrow" onclick="changeSlide('previous')" value="Previous">
+          <img src="images/head/arrowleft.png">
+        </div>
+
+        <div class="rightarrow" onclick="changeSlide('next')" value="Next">
+          <img src="images/head/arrowright.png">
+        </div>
+      </div>
+    </div>
+
+    <!-- BOOKNOW LOW RESOLUTION for tablet and mobile end -->
+
+    <!-- BOOKNOW HIGH RESOLUTION for desktop start -->
+    <div id="booknow-high">
+      <img src="images/bg slider/Enjoy our hot summer deals  from £69.50.png" class="enjoy-high">
+
+      <div class="button-high" onclick="alert('Booked')">
+        <img src="images/bg slider/Book now_.png">
+      </div>
+
+      <div id="slider-arrows-high">
+        <div class="leftarrow" onclick="changeSlide('previous')" value="Previous">
+          <img src="images/head/arrowleft.png">
+        </div>
+
+        <div class="rightarrow" onclick="changeSlide('next')" value="Next">
+          <img src="images/head/arrowright.png">
+        </div>
+      </div>
+    </div>
+    <!-- BOOKNOW HIGH RESOLUTION for desktop end -->
+
+  </div>
+
+  <!-- Slider ends -->
+
+
+  <!-- USP starts -->
+  <main>
+    <div class="wrapper">
+      <section id="fly-smart">
+
+        <h5>LOW COST DEOSN'T MEAN CHEAP</h5>
+        <h1>Fly smart, fly with Green Earth</h1>
+        <div id="inner-wrap">
+          <div class="usp">
+
+            <img src="images/mobile/seat.png" alt="seat">
+            <div class="inner-usp">
+              <h4>Reclinable seats</h4>
+
+              <p> Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </div>
+          </div>
+
+          <div class="usp">
+
+            <img src="images/mobile/shoe.png" alt="shoe">
+            <div class="inner-usp">
+              <h4>Plenty of legroom</h4>
+
+              <p> Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </div>
+          </div>
+
+          <div class="usp">
+            <img src="images/mobile/cabin.png" alt="suitcase">
+            <div class="inner-usp">
+              <h4>Free cabin luggage</h4>
+
+              <p> Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </div>
+          </div>
+
+          <div class="usp">
+            <img src="images/mobile/smile.png" alt="smiley face">
+            <div class="inner-usp">
+              <h4>Friendly crew</h4>
+
+              <p> Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt ut labore et dolore magna
+                aliqua.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+    <!-- USP ends -->
+
+
+    <!-- OFFERS starts -->
+    <section id="offers">
+
+      <p class="showing">
+        Showing our offers from</p>
+
+      <div class="inner-offers">
+
+        <div class="offers">
+
+          <div class="label-container">
+            <img src="images/mobile/Rectangle 2 copy 8.jpg" alt="London">
+            <img class="label" src="images/mobile/label.png" alt="London">
+          </div>
+
+          <div class="wrap-tag">
+            <h3>London</h3>
+            <p class="tags">from £59
+            </p>
+            <a href="#">
+              <h3>Book now ></h3>
+            </a>
+          </div>
+        </div>
+
+        <div class="offers">
+
+          <img src="images/offers/city-1448302_1920.jpg" alt="Hamburg">
+          <div class="wrap-tag">
+            <h3>Hamburg</h3>
+            <p class="tags">from £79
+            </p>
+            <a href="#">
+              <h3>Book now ></h3>
+            </a>
+          </div>
+        </div>
+
+        <div class="offers">
+
+          <img src="images/offers/guadalest-1376373_1920.jpg" alt="Alicante">
+          <div class="wrap-tag">
+            <h3>Alicante</h3>
+            <p class="tags">from £89
+            </p>
+            <a href="#">
+              <h3>Book now ></h3>
+            </a>
+          </div>
+        </div>
+
+        <div class="offers">
+
+          <img src="images/offers/expo-920533_1920.jpg" alt="Milano">
+          <div class="wrap-tag">
+            <h3>Milano</h3>
+            <p class="tags">from £119
+            </p>
+            <a href="#">
+              <h3>Book now ></h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OFFERS ends -->
+
+    <!-- INSPIRATION starts -->
+    <div id="inspiration">
+
+      <h2>
+        Don't know where to go?
+        <a href="#">Let us inspire you</a>
+      </h2>
+
+    </div>
+    <!-- INSPIRATION ends -->
+
+
+    <!-- CLASSES starts -->
+    <section id="classes">
+      <div class="inner-classes">
+        <h3>QUALITY FROM THE INSIDE</h3>
+        <h1>Travel the way you want</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur ipisicing elit, sed do eiusmod tempor inciunt</p>
+
+        <p class="view">
+          <a href="#">View all services & upgrades</a>
+        </p>
+
+        <div id="tabs">
+
+          <div class="buttonContainer">
+            <button class="tablink" onclick="showPanel(0)" id="defaultOpen">Regular</button>
+            <button class="tablink" onclick="showPanel(1,'#ffffff')">Plus</button>
+            <button class="tablink" onclick="showPanel(2,'#ffffff')">Premium</button>
+          </div>
+          <div id="tabContainer">
+            <div class="tabs">
+
+              <img src="images/mobile/Ellipse 1.jpg" alt="child">
+              <h2>Regular</h2>
+              <ul>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Reclinable seats</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>1 Hand luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Extra leg room</p>
+                </li>
+                <li>
+                  <img src="images/mobile/x.jpg" alt="dollar">
+                  <p class="unchecked">Extra cabin luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/x.jpg" alt="dollar">
+                  <p class="unchecked">Extra hold luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/x.jpg" alt="dollar">
+                  <p class="unchecked">Extra Lounge access</p>
+                </li>
+              </ul>
+
+            </div>
+
+            <div class="tabs">
+
+              <img src="images/mobile/Ellipse 1.jpg" alt="child">
+              <h2>Plus</h2>
+              <ul>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Reclinable seats</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>1 Hand luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Extra leg room</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Extra cabin luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/x.jpg" alt="dollar">
+                  <p class="unchecked">Extra hold luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/x.jpg" alt="dollar">
+                  <p class="unchecked">Extra Lounge access</p>
+                </li>
+
+              </ul>
+            </div>
+
+
+            <div class="tabs">
+
+              <img src="images/mobile/Ellipse 1.jpg" alt="child">
+              <h2>Premium</h2>
+              <ul>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Reclinable seats</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>1 Hand luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Extra leg room</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Extra cabin luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/v.jpg" alt="checkmark">
+                  <p>Extra hold luggage</p>
+                </li>
+                <li>
+                  <img src="images/mobile/x.jpg" alt="dollar">
+                  <p class="unchecked">Extra Lounge access</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLASSES ends -->
+
+  </main>
+  <!-- end of main container-->
+
+
+
+  <!-- FOOTER STARTS -->
+
+  <footer>
+    <!-- SUBSCRIBE SECTION STARTS -->
+    <div id="subscribe">
+      <div class="inner-sub">
+        <h1>
+          Subsrcibe to our newsletter
+        </h1>
+
+        <div class="subscribe">
+
+          <input type="text" placeholder="Enter your email address" name="mail" required>
+
+          <input type="submit" value="Send">
+        </div>
+      </div>
+
+    </div>
+    <!-- SUBSCRIBE SECTION ENDS -->
+
+
+    <!-- SOCIAL STARTS -->
+    <div id="social">
+
+      <h2>
+        Follow us
+      </h2>
+      <div class="social-links">
+        <a href="#">
+          <img src="images/mobile/Ellipse 765.png" alt="facebook">
+        </a>
+        <a href="#">
+          <img src="images/mobile/Ellipse 765 copy.png" alt="twitter">
+        </a>
+        <a href="#">
+          <img src="images/mobile/Ellipse 765 copy 2.png" alt="instagram">
+        </a>
+      </div>
+    </div>
+
+    <!-- SOCIAL ENDS -->
+
+
+    <!-- BOTTOM-BAR STARTS -->
+    <div id="bottom-bar">
+      <div id="payment">
+        <a href="#">
+          <img src="images/mobile/mc.jpg" alt="master card">
+        </a>
+
+        <a href="#">
+          <img src="images/mobile/visa.jpg" alt="visa">
+        </a>
+
+        <a href="#">
+          <img src="images/mobile/amex.jpg" alt="amex">
+        </a>
+
+        <a href="#">
+          <img src="images/mobile/paypal.jpg" alt="paypal">
+        </a>
+
+      </div>
+
+      <div id="terms">
+        <a href="#">Terms & privacy</a>
+
+        <a href="#">Site map</a>
+
+      </div>
+    </div>
+
+    <!-- BOTTOM-BAR ENDS -->
+  </footer>
+
+  <!-- FOOTER ENDS -->
+
+
+
+  <!-- JS & JQ links -->
+  <script src="myScript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
